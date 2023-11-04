@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "build": "cargo build --release -p phira-mp-server && RUST_LOG=info target/release/phira-mp-server"
+    "build": "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh && cargo build --release -p phira-mp-server && RUST_LOG=info target/release/phira-mp-server"
   }
 }
