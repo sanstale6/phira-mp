@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "build": "cargo build --release -p phira-mp-server
-"
+    "build": "cargo build --release -p phira-mp-server && RUST_LOG=info target/release/phira-mp-server"
   }
 }
